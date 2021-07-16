@@ -1,8 +1,42 @@
+@import "../../global.scss";
+
 .navbar{
   width: 100%;
   height: 70px;
-  background-color: #15023a;
+  background-color: white;
+  color: $mainColour;
   position: fixed;
   top: 0;
   z-index: 2;
+
+  .wrapper{
+    padding: 0.6250em 1.86em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left{
+      display: flex;
+      align-items: center;
+
+      .logo{
+        font-size: 2.5em;
+        font-weight: bold;
+        text-decoration: none;
+        color: inherit;
+        margin-right: 1em;
+      }
+
+      .itemContainer{
+        display: flex;
+        align-items: center;
+        margin-right: 1.5em;
+
+        .icon{
+          width: auto;
+          height: 2.8em;
+        }
+      }
+    }
+  }
 }
