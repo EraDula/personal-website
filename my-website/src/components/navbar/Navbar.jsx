@@ -10,10 +10,10 @@ export default function Navbar() {
         <div className="left">
           <a href="#intro" className="logo">Era Dula.</a>
           <div className="itemContainer">
-            <img src={githubLogo} alt="Logo" className="icon"/>
+            <a href="https://github.com/EraDula" target="_blank"><img src={githubLogo} alt="Logo" className="icon"/></a>
           </div>
           <div className="itemContainer">
-            <img src={linkedinLogo} alt="Logo" className="icon"/>
+            <a href="https://uk.linkedin.com/in/era-dula-95939b196" target="_blank"><img src={linkedinLogo} alt="Logo" className="icon"/></a>
           </div>
         </div>
         <div className="right"></div>
