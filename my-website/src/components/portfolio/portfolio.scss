@@ -1,5 +1,7 @@
+@import "../../global.scss";
+
 .portfolio{
-  background-color: crimson;
+  background-color: $mainColour;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,14 +37,18 @@
           height: 100%;
           display: flex;
           align-items: center;
-          justify-content: center;
 
           .leftContainer{
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-left: 2em;
             h1{
+              font-size: 50px;
               color: #8179a0;
             }
             p{
-              color: #a9a4be;
+              color: #c3c0d1;
             }
             h5{
               color: #d09de7;
@@ -59,6 +65,13 @@
           display: flex;
           align-items: center;
           justify-content: center;
+
+          .imgContainer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+          }
         }
       }
     }
