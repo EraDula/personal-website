@@ -9,7 +9,16 @@ export default function Intro() {
           <img src="assets/me.jpg" alt=""/>
         </div>
       </div>
-      <div className="right"></div>
+      <div className="right">
+        <div className="wrapper">
+          <h2>Hi there, I'm</h2>
+          <h1>Era Dula!</h1>
+          <h3>Software developer and 3rd year student.</h3>
+        </div>
+        <a href="#portfolio">
+          <img src="assets/arrowDown.png" alt="Arrow Down"/>
+        </a>
+      </div>
     </div>
   )
 }
