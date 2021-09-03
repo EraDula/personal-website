@@ -16,7 +16,11 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="right">
-
+              <div className="imgContainer">
+                <img src="assets/javascriptIcon.png" alt="" />
+                <img src="assets/javascriptIcon.png" alt="" />
+                <img src="assets/javascriptIcon.png" alt=""/>
+              </div>
             </div>
           </div>
         </div>
