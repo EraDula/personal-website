@@ -26,6 +26,8 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
+      <img src="assets/arrowDown.png" className="arrow left" alt="" />
+      <img src="assets/arrowDown.png" className="arrow right" alt=""/>
     </div>
   )
 }
