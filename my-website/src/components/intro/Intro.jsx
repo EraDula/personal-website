@@ -16,7 +16,7 @@ export default function Intro() {
           <h3>Software developer and 3rd year student.</h3>
           <a href="" target="_blank"><button type="submit">CV</button></a>
         </div>
-        <a href="#portfolio" className="arrow">
+        <a href="#projects" className="arrow">
           <img src="assets/arrowDown.png" alt="Arrow Down"/>
         </a>
       </div>
