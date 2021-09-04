@@ -1,8 +1,8 @@
 import React from 'react'
-import "./portfolio.scss"
+import "./projects.scss"
 import { useState } from 'react'
 
-export default function Portfolio() {
+export default function Projects() {
   const [currentSlide, setCurrentSlide] = useState(0)
 
   const handleClick = (way) => {
@@ -11,7 +11,7 @@ export default function Portfolio() {
   }
   // CHANGE DUMMY DATA
   return (
-    <div className="portfolio" id="portfolio">
+    <div className="projects" id="projects">
       <div className="slider" style={{transform: `translateX(-${currentSlide * 100}vw)`}}>
         <div className="container">
           <div className="item">
