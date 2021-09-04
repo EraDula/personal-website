@@ -1,9 +1,9 @@
 import React from 'react'
-import "./works.scss"
+import "./about.scss"
 
 export default function Works() {
   return (
-    <div className="works" id="works">
+    <div className="about" id="about">
     
     </div>
   )

@@ -2,7 +2,7 @@ import Contact from "./components/contact/Contact"
 import Intro from "./components/intro/Intro"
 import Navbar from "./components/navbar/Navbar"
 import Projects from "./components/projects/Projects"
-import Works from "./components/works/Works"
+import About from "./components/about/About"
 import Menu from "./components/menu/Menu"
 import "./app.scss"
 import { useState } from 'react';
@@ -16,7 +16,7 @@ function App() {
       <div className="sections">
         <Intro />
         <Projects />
-        <Works />
+        <About />
         <Contact />
       </div>
     </div>
