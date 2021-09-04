@@ -2,6 +2,11 @@ import React from 'react'
 import "./contact.scss"
 
 export default function Contact() {
+
+  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  }
   return (
     <div className="contact" id="contact">
       <div className="left">
@@ -10,7 +15,7 @@ export default function Contact() {
         <img src="assets/handshakeIcon.png" alt=""/>
       </div>
       <div className="right">
-        <form>
+        <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Email" />
           <textarea placeholder="Message"></textarea>
           <button type="submit">Send</button>
