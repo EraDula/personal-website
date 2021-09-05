@@ -23,7 +23,7 @@ export default function Projects() {
               <div className="leftContainer">
                 <h1>Personal Website</h1>
                 <p>
-                  Web app about myself, which I decided to make not only to
+                  Web app designed and built about myself by myself, which I decided to make not only to
                   share about myself but to improve my skills in React. I have
                   also picked up new styling skills by using Sass rather than
                   CSS.
