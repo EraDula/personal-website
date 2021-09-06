@@ -27,6 +27,10 @@
         text-decoration: none;
         color: inherit;
         margin-right: 1em;
+
+        @include mobile{
+          font-size: 2em;
+        }
       }
 
       .itemContainer{
