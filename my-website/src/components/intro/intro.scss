@@ -47,9 +47,11 @@
       justify-content: center;
 
       a{
+        width: 20%;
         button{
+          width: 100%;
           @include mobile{
-            width: 20%;
+            width: 100%;
           }
         }
       }
