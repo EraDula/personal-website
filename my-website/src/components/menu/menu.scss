@@ -13,6 +13,7 @@
   align-items: center;
   justify-content: center;
   transition: all 1s ease;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 1);
 
   // ?if theres an active class
   &.active{
