@@ -4,6 +4,11 @@
   background-color: $mainColour;
   display: flex;
 
+  @include mobile{
+    flex-direction: column;
+    align-items: center;
+  }
+
   .left{
     flex: 0.5;
 
@@ -11,8 +16,15 @@
       width: 43.8em;
       height: Calc(100vh - 70px);
       overflow: hidden;
+
       img{
         width: 100%;
+
+        @include mobile{
+          margin-top: -9em;
+          height: 100%;
+          width: 85%; 
+        }
       }
     }
   }
@@ -21,18 +33,32 @@
     flex: 0.5;
     position: relative;
 
+    @include mobile{
+      flex-direction: column;
+      align-items: center;
+    }
+
     .wrapper{
-      width: 100%;
+      width: 90%;
       height: 100%;
       padding-left: 50px;
       display: flex;
       flex-direction: column;
       justify-content: center;
 
+      a{
+        button{
+          @include mobile{
+            width: 20%;
+          }
+        }
+      }
+
       h1{
         color: #d09de7;
         font-size: 60px;
         margin: 10px 0;
+        
       }
       h2{
         color: #8179a0;
@@ -42,12 +68,16 @@
         color: #9a169e;
         font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
         font-size: 20px;
+
+        @include mobile{
+          
+        }
       }
     }
     .arrow{
       position: absolute;
       bottom: 10px;
-      left: 50%;
+      left: 45%;
 
       img{
         width: 60px;
