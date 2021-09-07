@@ -5,6 +5,10 @@
   background-color: $mainColour;
   display: flex;
   
+  @include mobile{
+    padding-top: 5em;
+  }
+  
   .aboutMeBox {
     flex: 1.5;
     display: flex;
@@ -29,6 +33,11 @@
       align-items: center;
       height: 26em;
       width: 100%;
+
+      @include mobile{
+        padding-top: 1em;
+      }
+
       .left {
         flex: 1;
         height: 100%;
@@ -41,6 +50,10 @@
           font-size: 17px;
           font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
           color: #9a169e;
+
+          @include mobile{
+            font-size: 12px;
+          }
         }
       }
   
@@ -63,6 +76,10 @@
             font-size: 17px;
             font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
             color: #9a169e;
+            
+            @include mobile{
+              font-size: 12px;
+            }
           }
         }
   
